@@ -1,31 +1,48 @@
 body {
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    background: url('../images/background.jpg') no-repeat center center fixed;
-    background-size: cover;
-    color: white;
-    text-align: center;
+  background: url("../img/bg3_ia.jpeg") no-repeat center center fixed;
+  background-size: cover;
 }
-.games-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 20px;
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.game-item {
-    width: 200px;
-    height: 200px;
-    background: rgba(0, 0, 0, 0.7);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid white;
-    border-radius: 10px;
-    text-decoration: none;
-    color: white;
-    transition: transform 0.3s ease, background 0.3s ease;
+
+.back-button a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: black; /* Cor de fundo branca */
+  color: white; /* Cor da seta */
+  font-size: 12px;
+  text-align: center;
+  line-height: 40px; /* Para centralizar a seta dentro do botão */
+  border-radius: 50%; /* Torna o botão redondo */
+  text-decoration: none; /* Remove o sublinhado do link */
+  box-shadow: 0 0 5px #ff1b7b; /* Box shadow rosa */
+  transition: all 0.3s ease; /* Efeito suave ao passar o mouse */
 }
-.game-item:hover {
-    transform: scale(1.1);
-    background: rgba(0, 0, 0, 0.9);
+
+.back-button a:hover {
+  transform: scale(1.1); /* Aumenta o tamanho ao passar o mouse */
+  box-shadow: 0 6px 12px #19caca; /* Efeito de sombra mais intensa no hover */
+}
+
+.logo {
+  text-align: end;
+}
+
+.logo img {
+  width: 30%;
+}
+
+.game-content {
+}
+
+.game-content h1 {
+  color: white;
+  font-size: 2.5em;
+  text-align: center;
+  margin-top: 0;
 }

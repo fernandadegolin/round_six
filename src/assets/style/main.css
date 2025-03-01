@@ -6,8 +6,10 @@ body {
   margin: 0;
   font-family: "Gabarito", sans-serif;
   text-align: center;
-  background: url("../img/bg.jpeg") no-repeat center center fixed;
+  background: url("../img/bg4_ia.jpeg") no-repeat center center fixed;
   background-size: cover;
+
+  text-decoration: none;
 }
 
 header {
@@ -21,14 +23,15 @@ header {
 }
 
 header img {
-  width: 90%;
+  width: 80%;
   margin-bottom: 20px;
 }
 
 header .sub-title {
   padding: 5px;
   box-shadow: 0 0 5px #ff1b7b;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0);
+  transition: transform 0.3s ease, background 0.3s ease;
 }
 
 header .sub-title h2 {
@@ -39,6 +42,7 @@ header .sub-title h2 {
 
 header .sub-title:hover {
   box-shadow: 0 0 5px #19caca;
+  background: rgba(0, 0, 0, 0.7);
 }
 
 main .games-grid {
@@ -51,8 +55,8 @@ main .games-grid {
 
 main .game-item {
   width: 300px;
-  height: 180px;
-  background: rgba(0, 0, 0, 0.7);
+  height: 200px;
+  background: rgba(0, 0, 0);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -65,7 +69,7 @@ main .game-item {
 
 main .game-item:hover {
   transform: scale(1.03);
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.7);
   border: 1.5px solid #ff1b7b;
   font-size: 1.3rem;
 }
