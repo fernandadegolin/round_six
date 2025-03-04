@@ -1,6 +1,7 @@
 body {
-  background: url("../img/bg3_ia.jpeg") no-repeat center center fixed;
-  background-size: cover;
+  /* background: url("../img/bg3_ia.jpeg") no-repeat center center fixed;
+  background-size: cover; */
+  /* background: white; */
 }
 
 .header-content {
@@ -13,20 +14,20 @@ body {
   display: inline-block;
   width: 40px;
   height: 40px;
-  background-color: black; /* Cor de fundo branca */
-  color: white; /* Cor da seta */
+  background-color: black; 
+  color: white; 
   font-size: 12px;
   text-align: center;
-  line-height: 40px; /* Para centralizar a seta dentro do botão */
-  border-radius: 50%; /* Torna o botão redondo */
-  text-decoration: none; /* Remove o sublinhado do link */
-  box-shadow: 0 0 5px #ff1b7b; /* Box shadow rosa */
-  transition: all 0.3s ease; /* Efeito suave ao passar o mouse */
+  line-height: 40px; 
+  border-radius: 50%;
+  text-decoration: none; 
+  box-shadow: 0 0 5px #ff1b7b; 
+  transition: all 0.3s ease; 
 }
 
 .back-button a:hover {
-  transform: scale(1.1); /* Aumenta o tamanho ao passar o mouse */
-  box-shadow: 0 6px 12px #19caca; /* Efeito de sombra mais intensa no hover */
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px #19caca;
 }
 
 .logo {
@@ -41,7 +42,7 @@ body {
 }
 
 .game-content h1 {
-  color: white;
+  /* color: white; */
   font-size: 2.5em;
   text-align: center;
   margin-top: 0;
