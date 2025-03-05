@@ -1,7 +1,7 @@
 body {
   background: url("../img/bg3_ia.jpeg") no-repeat center center fixed;
   background-size: cover;
-  background: white;
+  /* background: white; */
 }
 
 .header-content {
@@ -36,14 +36,4 @@ body {
 
 .logo img {
   width: 30%;
-}
-
-.game-content {
-}
-
-.game-content h1 {
-  /* color: white; */
-  font-size: 2.5em;
-  text-align: center;
-  margin-top: 0;
 }

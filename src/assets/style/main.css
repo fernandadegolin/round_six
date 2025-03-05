@@ -29,6 +29,7 @@ header img {
 
 header .sub-title {
   padding: 5px;
+  margin-top: 20px;
   box-shadow: 0 0 5px #ff1b7b;
   background: rgba(0, 0, 0);
   transition: transform 0.3s ease, background 0.3s ease;

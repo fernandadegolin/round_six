@@ -5,6 +5,7 @@
     <title>Força ou Queda</title>
     <link rel="stylesheet" href="../../src/assets/style/main.css" />
     <link rel="stylesheet" href="../../src/assets/style/game.css" />
+    <link rel="stylesheet" href="./game4.css" />
   </head>
   <body>
     <header>
@@ -17,25 +18,52 @@
           <img src="../../src/assets/img/title.png" alt="Logo da Imersão Dev" />
         </div>
       </div>
+
+      <div class="sub-title">
+        <h2>Força ou Queda</h2>
+      </div>
     </header>
 
-    <main>
-      <div class="game-content">
-        <h1>Força ou Queda</h1>
+    <main class="game-content">
+      <div id="container">
+        <h2>Escolha 3 jogadores para seu time:</h2>
+
+        <div class="input-container">
+          <input type="text" id="player1" placeholder="Nome do jogador 1" />
+          <input type="text" id="player2" placeholder="Nome do jogador 2" />
+          <input type="text" id="player3" placeholder="Nome do jogador 3" />
+        </div>
+
+        <div class="button-container">
+          <button onclick="showPlayerTeam()">MONTAR: Seu time</button>
+
+          <button
+            id="btnOpponent"
+            onclick="showComputerTeam()"
+            style="display: none"
+          >
+            MONTAR: Time oponente
+          </button>
+
+          <button id="btnPlay" onclick="startGame()" style="display: none">
+            Jogar
+          </button>
+        </div>
       </div>
 
-      <div id="container">
-        <p>Escolha 3 jogadores para seu time:</p>
-
-        <input type="text" id="player1" placeholder="Nome do jogador 1" />
-        <input type="text" id="player2" placeholder="Nome do jogador 2" />
-        <input type="text" id="player3" placeholder="Nome do jogador 3" />
-
-        <button onclick="startGame()">Jogar!</button>
-
+      <div class="result-container">
+        <h2>Preparado?</h2>
+        <p id="playerResult"></p>
+        <p id="computerResult"></p>
         <p id="result"></p>
       </div>
     </main>
+
+    <div class="reset-container">
+      <button id="btnReset" onclick="resetGame()" style="display: none">
+        Jogar novamente
+      </button>
+    </div>
 
     <footer>
       <p>Alura - Imersão DEV - 2025</p>
