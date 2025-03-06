@@ -1,90 +1,106 @@
 const questions = [
   {
-    question:
-      "Qual é a operação necessária para converter Won para Real, sabendo que 1 Won equivale a 0,004 Real?",
+    question: "Qual é a função do comando rand na programação?",
     answers: [
       {
-        option: "Multiplicar o valor em Won por 0,004",
-        correct: true,
-      },
-      {
-        option: "Dividir o valor em Won por 0,004",
+        option: "Imprimir mensagens na tela",
         correct: false,
       },
       {
-        option: "Somar o valor em Won com 0,004",
+        option: "Declarar variáveis",
+        correct: false,
+      },
+      {
+        option: "Gerar números aleatórios",
+        correct: true,
+      },
+      {
+        option: "Criar loops",
         correct: false,
       },
     ],
   },
   {
-    question:
-      "O que o código Math.random() faz em um jogo de Pedra, Papel e Tesoura?",
+    question: "O que o loop while faz em um jogo?",
     answers: [
       {
-        option: "Retorna um valor aleatório entre 0 e 10",
+        option: "Executa uma ação apenas uma vez",
         correct: false,
       },
       {
-        option: "Retorna um valor aleatório entre 0 e 1",
+        option: "Repete uma ação enquanto uma condição for verdadeira",
         correct: true,
       },
       {
-        option: "Sempre retorna 0",
+        option: "Compara valores e retorna o maior",
+        correct: false,
+      },
+      {
+        option: "Gera números aleatórios",
         correct: false,
       },
     ],
   },
   {
-    question:
-      "Qual estrutura de repetição é ideal para continuar pedindo a escolha do jogador enquanto o jogo não termina?",
+    question: "Como é feita a seleção de um time no jogo de Cabo de Guerra?",
     answers: [
       {
-        option: "For",
+        option: "Somando os pontos de cada jogador",
         correct: false,
       },
       {
-        option: "If",
+        option: "Utilizando uma função rand",
         correct: false,
       },
       {
-        option: "While",
+        option: "Comparando a idade dos jogadores",
+        correct: false,
+      },
+      {
+        option: "Usando um array para armazenar os membros escolhidos",
         correct: true,
       },
     ],
   },
   {
     question:
-      "Qual estrutura é usada para percorrer os jogadores do time armazenados em um array?",
+      "O que acontece se o participante tiver menos de 18 anos no jogo Pedra, Papel e Tesoura?",
     answers: [
       {
-        option: "If",
+        option: "O participante escolhe duas opções",
         correct: false,
       },
       {
-        option: "For",
+        option: "O participante ganha automaticamente",
+        correct: false,
+      },
+      {
+        option: "O jogo não permite a participação",
         correct: true,
       },
       {
-        option: "Switch",
+        option: "O jogo permite a participação com pontos extras",
         correct: false,
       },
     ],
   },
   {
-    question:
-      "Antes de começar o jogo de Pedra, Papel e Tesoura, o que deve ser verificado?",
+    question: "Como o vidro que quebra é escolhido no jogo de Salto no Vidro?",
     answers: [
       {
-        option: "Se o jogador sabe jogar",
+        option: "Pela quantidade de tentativas",
         correct: false,
       },
       {
-        option: "Se o jogador é maior ou igual a 18 anos",
+        option: "Pela posição escolhida pelo jogador",
+        correct: false,
+      },
+      {
+        option: "Através de um número aleatório gerado pela função rand",
         correct: true,
       },
       {
-        option: "Se o jogador quer jogar de novo",
+        option: "Pela força do salto",
         correct: false,
       },
     ],

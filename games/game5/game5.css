@@ -8,6 +8,8 @@
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
+  width: 60%;
+  max-width: 60%;
 }
 
 .content {
@@ -63,6 +65,7 @@
   margin-bottom: 2rem;
   text-align: center;
   font-weight: 600;
+  color: white;
 }
 
 .finish_button {
@@ -72,4 +75,13 @@
   border-radius: 10px;
   font-weight: 700;
   border: none;
+  background: #ff1b7b;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.finish_button:hover {
+  background: #19caca;
+  font-weight: 600;
 }
