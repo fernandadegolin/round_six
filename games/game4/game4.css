@@ -1,23 +1,7 @@
 .game-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  box-shadow: 0 0 5px #ff1b7b;
-  background: rgba(0, 0, 0, 0.7);
-  margin: 30px;
-  padding: 20px;
-  height: 45vh;
-  min-height: 45vh;
-}
-
-.game-content:hover {
-  box-shadow: 0 0 5px #19caca;
-  background: rgba(0, 0, 0);
-}
-
-h2,
-p {
-  color: white;
+  gap: 30px;
 }
 
 #container {

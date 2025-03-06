@@ -37,3 +37,22 @@ body {
 .logo img {
   width: 30%;
 }
+
+.game-content {
+  box-shadow: 0 0 5px #ff1b7b;
+  background: rgba(0, 0, 0, 0.7);
+  margin: 30px;
+  padding: 20px;
+  height: 45vh;
+  min-height: 45vh;
+}
+
+.game-content:hover {
+  box-shadow: 0 0 5px #19caca;
+  background: rgba(0, 0, 0);
+}
+
+h2,
+p {
+  color: white;
+}
