@@ -5,6 +5,8 @@
     <title>Jogo 2</title>
     <link rel="stylesheet" href="../../src/assets/style/main.css" />
     <link rel="stylesheet" href="../../src/assets/style/game.css" />
+    <link rel="stylesheet" href="./game2.css" />
+    <script src="./game2.js"></script>
   </head>
   <body>
     <header>
@@ -21,15 +23,36 @@
 
     <main>
       <div class="game-content">
-        <h1>Jogo 2</h1>
+        
+
+        <div id="player-side">
+          <select id="playerChoice" onchange="updatePlayerImage()">
+            <option value="">Selecione sua jogada</option>
+            <option value="Pedra">Pedra</option>
+            <option value="Papel">Papel</option>
+            <option value="Tesoura">Tesoura</option>
+          </select>
+          <div id="playerImageContainer">
+            <img id="playerImage" src="../../src/assets/img/g2_sorteio.png" alt="Escolha do Jogador" width="200" height="200">
+          </div>
+        </div>
+    
+        <div id="computer-side">
+          <div id="computerImageContainer">
+            <img id="computerImage" src="../../src/assets/img/g2_sorteio.png" alt="Escolha do Computador" width="200" height="200">
+          </div>
+        </div>
       </div>
 
-      <div id="container"></div>
+      <div id="resultContainer">
+        <button id="btnPlay" onclick="playGame()">Jogar</button>
+        <p id="resultMessage"></p>
+      </div>
     </main>
 
     <footer>
       <p>Alura - Imersão DEV - 2025</p>
     </footer>
   </body>
-  <script src="./game2.js"></script>
+ 
 </html>

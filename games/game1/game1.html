@@ -5,6 +5,7 @@
     <title>Jogo 1</title>
     <link rel="stylesheet" href="../../src/assets/style/main.css" />
     <link rel="stylesheet" href="../../src/assets/style/game.css" />
+    <link rel="stylesheet" href="./game1.css" />
   </head>
   <body>
     <header>
@@ -21,10 +22,27 @@
 
     <main>
       <div class="game-content">
-        <h1>Jogo 1</h1>
-      </div>
+        <h2>Quanto vale o Won?</h2>
+      
 
-      <div id="container"></div>
+        <div class="container">
+          <h2>Informe a quantidade de Wons e as taxas em real e dólar</h2>
+          <div class="input-container">
+            <input type="number" id="wonValue" placeholder="Valor em Won">
+      
+          
+            <input type="number" id="conversionRateReal" placeholder="Taxa de conversão para R$">
+            <input type="number" id="conversionRateDolar" placeholder="Taxa de conversão para R$">
+          
+            <input type="text" id="resultValueReal" placeholder="Valor final em R$" readonly>
+            <input type="text" id="resultValueDolar" placeholder="Valor final em US$" readonly>
+          </div>
+          <div class="button-container">
+            <button id="btnConvertReal" onclick="convertToReal()">Converter para real</button>
+            <button id="btnConvertDolar" onclick="convertToDolar()"></button>>Converter para dolar</button>
+            <button id="btnClear" onclick="clearFields()"></button>>Limpar</button>
+          </div>
+        </div>
     </main>
 
     <footer>

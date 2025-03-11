@@ -5,6 +5,7 @@
     <title>Jogo 3</title>
     <link rel="stylesheet" href="../../src/assets/style/main.css" />
     <link rel="stylesheet" href="../../src/assets/style/game.css" />
+    <link rel="stylesheet" href="./game3.css" />
   </head>
   <body>
     <header>
@@ -21,10 +22,28 @@
 
     <main>
       <div class="game-content">
-        <h1>Jogo 3</h1>
+        <h2>Jogo de Salto no Vidro</h>
+        <!-- Container with 3 images, each with a label -->
+        <div id="glass-container">
+          <div class="glass-item">
+            <p>1</p>
+            <img id="glass1" src="../../src/assets/img/g3_vidro.png" alt="Vidro 1" width="100" height="100">
+          </div>
+          <div class="glass-item">
+            <p>2</p>
+            <img id="glass2" src="../../src/assets/img/g3_vidro.png" alt="Vidro 2" width="100" height="100">
+          </div>
+          <div class="glass-item">
+            <p>3</p>
+            <img id="glass3" src="../../src/assets/img/g3_vidro.png" alt="Vidro 3" width="100" height="100">
+          </div>
+        </div>
+        
+        
+        <button id="btnPlay" onclick="startGame()">Vamos jogar!</button>
       </div>
 
-      <div id="container"></div>
+      
     </main>
 
     <footer>

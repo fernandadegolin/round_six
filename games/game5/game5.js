@@ -109,7 +109,7 @@ const questions = [
 
 const question = document.querySelector(".question");
 const answers = document.querySelector(".answers");
-const spnQtd = document.querySelector(".spnQtd");
+const questionProgress = document.querySelector(".questionProgress");
 const textFinish = document.querySelector(".finish span");
 const content = document.querySelector(".content");
 const contentFinish = document.querySelector(".finish");
@@ -147,7 +147,7 @@ function finish() {
 }
 
 function loadQuestion() {
-  spnQtd.innerHTML = `${currentIndex + 1}/${questions.length}`;
+  questionProgress.innerHTML = `${currentIndex + 1}/${questions.length}`;
   const item = questions[currentIndex];
   answers.innerHTML = "";
   question.innerHTML = item.question;

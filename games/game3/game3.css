@@ -1,0 +1,23 @@
+/* Container for the glass images */
+#glass-container {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    gap: 20px;                
+    margin-bottom: 20px;      
+  }
+  
+  .glass-item {
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background: #ff1b7b;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
